@@ -7,49 +7,57 @@ export const SUBJECTS: Subject[] = [
     name: "Mathematics",
     emoji: "🔢",
     description: "Master numbers, from algebra to calculus.",
-    details: ["Algebraic Equations", "Geometry", "Trigonometry", "Calculus Basics"]
+    details: ["Algebraic Equations", "Geometry", "Trigonometry", "Calculus Basics"],
+    imageUrl: "https://source.unsplash.com/400x300/?math,equations"
   },
   {
     name: "English Language",
     emoji: "📚",
     description: "Improve your grammar, vocabulary, and comprehension.",
-    details: ["Grammar & Punctuation", "Comprehension Passages", "Literary Devices", "Essay Writing"]
+    details: ["Grammar & Punctuation", "Comprehension Passages", "Literary Devices", "Essay Writing"],
+    imageUrl: "https://source.unsplash.com/400x300/?books,library"
   },
   {
     name: "Biology",
     emoji: "🔬",
     description: "Explore the fascinating world of living organisms.",
-    details: ["Cell Biology", "Genetics", "Ecology", "Human Anatomy"]
+    details: ["Cell Biology", "Genetics", "Ecology", "Human Anatomy"],
+    imageUrl: "https://source.unsplash.com/400x300/?biology,microscope"
   },
   {
     name: "Chemistry",
     emoji: "⚗️",
     description: "Understand the building blocks of matter.",
-    details: ["The Periodic Table", "Chemical Reactions", "Organic Chemistry", "Mole Concept"]
+    details: ["The Periodic Table", "Chemical Reactions", "Organic Chemistry", "Mole Concept"],
+    imageUrl: "https://source.unsplash.com/400x300/?chemistry,beaker"
   },
   {
     name: "Physics",
     emoji: "💡",
     description: "Uncover the laws that govern the universe.",
-    details: ["Mechanics & Motion", "Electricity & Magnetism", "Waves & Optics", "Thermodynamics"]
+    details: ["Mechanics & Motion", "Electricity & Magnetism", "Waves & Optics", "Thermodynamics"],
+    imageUrl: "https://source.unsplash.com/400x300/?physics,galaxy"
   },
   {
     name: "Government",
     emoji: "🏛️",
     description: "Learn about the systems that govern societies.",
-    details: ["Nigerian Constitution", "Forms of Government", "International Relations", "Civil Rights"]
+    details: ["Nigerian Constitution", "Forms of Government", "International Relations", "Civil Rights"],
+    imageUrl: "https://source.unsplash.com/400x300/?government,building"
   },
   {
     name: "Economics",
     emoji: "💰",
     description: "Study how people manage resources and create wealth.",
-    details: ["Supply and Demand", "Inflation", "International Trade", "Nigerian Economy"]
+    details: ["Supply and Demand", "Inflation", "International Trade", "Nigerian Economy"],
+    imageUrl: "https://source.unsplash.com/400x300/?economics,money"
   },
   {
     name: "History",
     emoji: "📜",
     description: "Discover the stories and events that shaped our world.",
-    details: ["Pre-colonial Nigeria", "The Colonial Era", "Nigerian Independence", "World Wars"]
+    details: ["Pre-colonial Nigeria", "The Colonial Era", "Nigerian Independence", "World Wars"],
+    imageUrl: "https://source.unsplash.com/400x300/?history,scroll"
   },
 ];
 

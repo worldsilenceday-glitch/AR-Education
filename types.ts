@@ -5,6 +5,7 @@ export interface Subject {
   emoji: string;
   description: string;
   details: string[];
+  imageUrl: string;
 }
 
 export interface ChatMessage {

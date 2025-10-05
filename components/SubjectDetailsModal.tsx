@@ -166,5 +166,3 @@ export const SubjectDetailsModal: React.FC<SubjectDetailsModalProps> = ({ subjec
     </div>
   );
 };
-
-export default SubjectDetailsModal;

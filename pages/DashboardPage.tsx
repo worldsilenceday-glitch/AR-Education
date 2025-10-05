@@ -1,11 +1,12 @@
 
+
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useUser } from '../contexts/UserContext.tsx';
 import { SUBJECTS } from '../constants.ts';
 import { SubjectCard } from '../components/SubjectCard.tsx';
-// Fix: Corrected the import path from ../components-tsx to ../components
-import SubjectDetailsModal from '../components/SubjectDetailsModal.tsx';
+// Fix: Corrected the import to be a named import.
+import { SubjectDetailsModal } from '../components/SubjectDetailsModal.tsx';
 import type { Subject } from '../types.ts';
 import { LanguageSelector } from '../components/LanguageSelector.tsx';
 
